@@ -191,14 +191,14 @@ If the command returns successfully, your setup is complete.
 
 ## Configure participant's connection profile for IBM Blockchain Starter Plan
 
-The [network](./web-app/network/) folder by default has a `local_connection.json` file, which is called by `network.js` to create connection to local Hyperledger Fabric instance.  To create participant identities for connection to IBM Blockchain Starter Plan, we'll add the `connection-profile.json` to the folder.
+The [network](../../../tree/master/web-app/network) folder by default has a `local_connection.json` file, which is called by `network.js` to create connection to local Hyperledger Fabric instance.  To create participant identities for connection to IBM Blockchain Starter Plan, we'll add the `connection-profile.json` to the folder.
 
 #### Update App to IBM Blockchain Starter Plan connection profile
 
 * Add `connection-profile.json` into the `network` folder.
 
 
-* Next update `network.js` in that folder to retrieve connection from `connection-profile.json`.  You will update the code to use `connection-profile.json` instead of `./local_connection.json`
+* Next update `network.js` in that folder to retrieve connection from `connection-profile.json`.  You will update the [code](../web-app/network/network.js#L41) to use `connection-profile.json` instead of `./local_connection.json`
 
 <p align="center">
   <img width="800"  src="doc-images/connection-profile-code.png">
