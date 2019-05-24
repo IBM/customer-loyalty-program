@@ -1,3 +1,9 @@
+# WARNING: This repository is no longer maintained :warning:
+
+> This pattern focuses on older technology (e.g. Hyperledger Fabric APIs prior to Fabric 1.4). Therefore, there is no support for this pattern and it will be archived on May 1, 2019. You are welcome to use up to that date, but we recommend that you begin working with the updated release found at https://developer.ibm.com/patterns/customer-loyalty-program-with-iks-saas-v2-fabric/.
+
+
+
 # Customer Loyalty Program with blockchain
 
 A customer loyalty program allows companies to reward customers who frequently make purchases. Program members are able to earn points on purchases, which can translate into some type of reward such as discount, freebie or special customer treatment.  The members work toward a certain amount of points to redeem their reward.  These programs can have multiple companies as partners on the program, to cater to a customer base.  However, current loyalty program systems are restraint on relations between partners, and with visibility to members. These restraints can be removed by creating the customer loyalty program on a blockchain network.
